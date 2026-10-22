@@ -1,0 +1,22 @@
+# Abhängigkeiten und Build
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+
+# Secrets: alle .env-Dateien außer der Vorlage ohne Schlüssel
+.env*
+!.env.example
+
+# Persönliche Daten: Datenbanken und Backups – nie versionieren
+data/*
+!data/.gitkeep
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+backups/
+
+# Lokale Werkzeug-Einstellungen
+.claude/settings.local.json
+.DS_Store

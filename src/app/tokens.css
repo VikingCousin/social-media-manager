@@ -1,0 +1,74 @@
+/* AUTOMATISCH ERZEUGT aus design/tokens.json – nicht von Hand bearbeiten (npm run tokens). */
+/* Status: Arbeitswerte, markenseitig OFFEN (siehe design/BRAND-STATUS.md). */
+:root {
+  --color-brand-primary: #1f5f5b;
+  --color-bg-canvas: #f6f5f1;
+  --color-bg-surface: #ffffff;
+  --color-bg-surface-sunken: #fbfaf7;
+  --color-text-primary: #1d2327;
+  --color-text-secondary: #4a545b;
+  --color-text-tertiary: #636a70;
+  --color-text-link: #1f5f5b;
+  --color-text-on-action: #ffffff;
+  --color-border-default: #e4e1d8;
+  --color-border-subtle: #efece5;
+  --color-border-strong: #8d8a81;
+  --color-action-primary-bg: #1f5f5b;
+  --color-action-primary-text: #ffffff;
+  --color-selection-bg: #e3efed;
+  --color-selection-text: #1f5f5b;
+  --color-feedback-success-bg: #e3f1e6;
+  --color-feedback-success-text: #2d6a3e;
+  --color-feedback-warning-bg: #fbf1dc;
+  --color-feedback-warning-text: #8a5a00;
+  --color-feedback-error-bg: #f8e5e1;
+  --color-feedback-error-text: #a33a2c;
+  --color-feedback-info-bg: #e8eef7;
+  --color-feedback-info-text: #1d2327;
+  --color-focus-ring: #1f5f5b;
+  --font-family-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Inter, Helvetica, Arial, sans-serif;
+  --font-family-mono: ui-monospace, "SF Mono", Menlo, monospace;
+  --text-body-md: 16px;
+  --text-caption: 12px;
+  --size-target-min: 44px;
+  --size-target-min-pointer: 24px;
+  --radius-control: 8px;
+  --radius-container: 10px;
+  --radius-pill: 999px;
+  --border-width-focus: 2px;
+  --border-offset-focus: 2px;
+  --elevation-raised: 0 1px 2px rgba(20, 20, 10, 0.04), 0 2px 8px rgba(20, 20, 10, 0.04);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-brand-primary: #7cc3bb;
+    --color-bg-canvas: #151819;
+    --color-bg-surface: #1c2021;
+    --color-bg-surface-sunken: #202526;
+    --color-text-primary: #e8e6e1;
+    --color-text-secondary: #bfc3c2;
+    --color-text-tertiary: #8b9293;
+    --color-text-link: #7cc3bb;
+    --color-text-on-action: #0f1a19;
+    --color-border-default: #2e3436;
+    --color-border-subtle: #262b2c;
+    --color-border-strong: #6d7172;
+    --color-action-primary-bg: #7cc3bb;
+    --color-action-primary-text: #0f1a19;
+    --color-selection-bg: #1f3432;
+    --color-selection-text: #7cc3bb;
+    --color-feedback-success-bg: #1f3325;
+    --color-feedback-success-text: #86c996;
+    --color-feedback-warning-bg: #3a3020;
+    --color-feedback-warning-text: #e2b760;
+    --color-feedback-error-bg: #3d2522;
+    --color-feedback-error-text: #f08b7b;
+    --color-feedback-info-bg: #1f2836;
+    --color-feedback-info-text: #e8e6e1;
+    --color-focus-ring: #7cc3bb;
+    --elevation-raised: none;
+    color-scheme: dark;
+  }
+}

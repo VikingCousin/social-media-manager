@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  VORLAGE – wird nicht automatisch installiert.
+  Startet den Social Media Manager beim Anmelden im Hintergrund (Produktionsmodus, nur 127.0.0.1:3210).
+  Voraussetzung: einmal `npm run build` im Projektordner.
+  Installation siehe docs/IPHONE-ZUGRIFF.md, Schritt 4.
+-->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>de.contentkompass.server</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>-lc</string>
+    <string>cd "/PFAD/ZUM/social-media-manager" &amp;&amp; exec npm start</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>ThrottleInterval</key>
+  <integer>30</integer>
+  <key>StandardOutPath</key>
+  <string>/tmp/contentkompass.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/contentkompass.err.log</string>
+</dict>
+</plist>
